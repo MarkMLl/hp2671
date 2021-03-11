@@ -10,7 +10,28 @@ Vendor image:
 
 Logic analyzer GPIB setup:
 
-![Analyzer setup](2021-03-11_11:36:57.txt)
+<pre>System Specification____________________________________________
+
+[___Peripherals____]
+
+Clock set: [Jan] 00 0000  00:00:00
+
+
+HP-IL: Inactive
+HP-IB: 1630G is controller
+Logic analyzer HP-IB address: 04
+Printer HP-IB address:        01
+Disc HP-IB address:           00 No Disc
+
+Print non-waveform menus in: [__text__]
+Rear panel port: [_______constant_low________]
+Beeper: [on_]
+
+
+Autoload configuration from internal storage: [yes]
+
+Save configuration in internal storage: [no_]
+</pre>
 
 Logic analyzer capture:
 
