@@ -1,0 +1,58 @@
+object Hp2671Form: THp2671Form
+  Left = 128
+  Height = 600
+  Top = 128
+  Width = 800
+  Caption = 'HP2671'
+  ClientHeight = 594
+  ClientWidth = 800
+  Menu = MainMenu1
+  LCLVersion = '2.1.0.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 21
+    Top = 573
+    Width = 800
+    Panels = <>
+  end
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 573
+    Top = 0
+    Width = 800
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = tpRight
+    object TabSheet1: TTabSheet
+      Caption = '1'
+      ClientHeight = 569
+      ClientWidth = 768
+      object Memo1: TMemo
+        Left = 0
+        Height = 569
+        Top = 0
+        Width = 768
+        Align = alClient
+        Color = clWhite
+        Lines.Strings = (
+          'Memo1'
+        )
+        TabOrder = 0
+      end
+      object Image1: TImage
+        Left = 0
+        Height = 569
+        Top = 0
+        Width = 768
+        Align = alClient
+        Visible = False
+      end
+    end
+  end
+  object MainMenu1: TMainMenu
+    left = 751
+    top = 5
+  end
+end
