@@ -4,4 +4,4 @@ Input is via a Fenrir/Prologix adapter as sold for example by https://www.aliexp
 
 Input may be text (e.g. from an HP16300 logic analyzer) or bitmap (e.g. from an HP54501A 'scope), other devices have not been tested. In the case of graphical input the output is a .bmp file, command line options provide minimal support for colour and margin definition.
 
-GPIB-to-USB-GPIB-USB-CDC-Compatible-with-IEEE-488-Instrument-Control-Interface.jpg_Q90
+(GPIB-to-USB-GPIB-USB-CDC-Compatible-with-IEEE-488-Instrument-Control-Interface.jpg_Q90)
