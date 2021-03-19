@@ -35,8 +35,8 @@ Save configuration in internal storage: [no_]
 
 Logic analyzer capture:
 
-![Analyzer capture](2021-03-11_11:37:04.png)
+![Analyzer capture](./2021-03-11_11:37:04.png)
 
 'Scope setup and capture:
 
-![Scope setup and capture](2021-03-11_11:51:29.png)
+![Scope setup and capture](./2021-03-11_11:51:29.png)
