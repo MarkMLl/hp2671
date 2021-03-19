@@ -1,0 +1,14 @@
+#!/bin/bash
+
+HP2671=hp2671-x86_64-linux
+
+while (true) ; do
+  raw=`$HP2671 --onceOnly --quiet --verbose --noFlip $@`
+  echo $raw
+  if [[ $raw == *.bmp ]] ; then
+    base=`basename --suffix=.bmp $raw`
+    bmptopnm $raw | pnmflip -topbottom | ppmtobmp > $base.temp
+    mv $base.temp $raw
+  fi
+done
+
