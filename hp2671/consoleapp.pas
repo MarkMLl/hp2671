@@ -2,8 +2,9 @@
 
 unit ConsoleApp;
 
-(* This is the greater part of a console program which reads data from a        *)
-(* Mastech MS2115B meter and sends it to stdout.                MarkMLl.        *)
+(* This is the greater part of a console program which accepts data from an HP  *)
+(* instrument and emulates a printer to a sufficient extent that it can output  *)
+(* a screendump in text or graphics format as appropriate.      MarkMLl.        *)
 
 {$mode objfpc}{$H+}
 
