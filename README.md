@@ -2,6 +2,8 @@ This is a minimal simulation of an HP2671 thermal printer to support older HP in
 
 Input is via a Fenrir/Prologix-subset adapter as sold for example by https://www.aliexpress.com/store/5256129?spm=a2g0o.detail.1000007.1.77305be17cn6AE Since this is to at least some extent a clone of- or at least a "homage to"- a commercial product, please do not direct support questions to Prologix unless you are prepared to purchase one of their own adapters.
 
+This has not yet been tested with other adapters such as https://github.com/Twilight-Logic/AR488 but no significant problems are anticipated.
+
 Input may be text (e.g. from an HP1630G logic analyzer) or bitmap (e.g. from an HP54501A 'scope), other devices have not been tested. In the case of graphical input the output is a .bmp file, command line options provide minimal support for colour and outline definition and wrapper scripts can convert to GIF or PNG.
 
 Vendor image:
